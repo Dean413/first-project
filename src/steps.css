@@ -1,0 +1,414 @@
+@font-face {
+    font-family: "customFont";
+    src: url(./assets/custom-fonts/lato/Lato-Regular.woff) format("woff");
+}
+
+@font-face {
+    font-family: "customFont2";
+    src: url(./assets/custom-fonts/lato/Lato-Hairline.woff) format("woff");
+}
+
+@font-face {
+    font-family: "customFont3";
+    src: url(./assets/custom-fonts/lato/Lato-Bold.woff) format("woff");
+}
+
+@font-face {
+    font-family: "customFont4";
+    src: url(./assets/custom-fonts/lato/Lato-Light.woff) format("woff");
+}
+
+.steps small {
+    margin-left: 190px;
+    font-family: "customFont4";
+}
+
+.steps h3 {
+    text-align: center;
+    margin-bottom: 9px;
+    font-family: "customFont4";
+}
+
+.arrow-right {
+    display: none;
+}
+
+.process div {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "customFont4";
+}
+
+.schedule div {
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.schedule > p {
+    margin-left: -25px;
+}
+
+/*styling for features*/
+.features img {
+    width: 100%;
+}
+
+.features {
+    font-family: "customFont4";
+    width: 90%;
+}
+
+.features > p, .features h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.features > div {
+    width: 65%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.features div {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*styling for pricing section*/
+.pricing {
+    font-family: "customFont4";
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.pricing div {
+    margin-bottom: 32px;
+    margin-top: 12px;
+}
+
+.premium {
+    background-color:  #0F06FE;
+    color: white;
+    height: 250px;   
+}
+
+/*styling for testimonials*/
+.testimonials {
+    font-family: "customFont4";
+}
+
+.team-image div {
+    margin-bottom: 20px;
+}
+
+/*styling for the footer*/
+.footer {
+    font-family: "customFont4";
+}
+
+.numbers div {
+    margin-bottom: 22px;
+}
+
+/*styling for the FAQ*/
+.paragraphs p {
+    margin-bottom: 22px;
+}
+
+/*styling for width of 1024*/
+@media (min-width: 1024px){
+    .steps small {
+        margin-left: 740px;
+        font-family: "customFont4";
+    }
+    
+    .arrow-right {
+        display: block;
+    }
+    
+    .process {
+       display: grid;
+       grid-template-columns: auto auto auto auto auto;
+    }
+
+    .step-one, .step-two, .step-three {
+        position: relative;
+    }
+
+    .step-one p, .step-two p, .step-three p {
+        position: absolute;
+        top: 50px;
+    }
+
+    .step-one h3, .step-two h3, .step-three h3 {
+        position: absolute;
+        top: 25px;
+        left: 130px;
+    }
+
+   /*styling for schedule secton*/
+   .schedule {
+    margin-top: 100px;
+    margin-left: 150px;
+    font-family: "customFont4";
+   }
+    .schedule div {
+        margin-bottom: 10px;
+        width: 80%;
+        text-align: center;
+    }
+    
+    .schedule > p, .schedule > h2 {
+        margin-left: 565px;
+    }
+
+    .schedule > h2 {
+        margin-left: 525px;
+    }
+    
+    .carry {
+        margin-left: 140px;
+    }
+    .eight h2, .eight p, .eight .icon, .one h2, .one p, .one .icon {
+        position: absolute;
+    }
+
+   
+    .eight h2 {
+        top: 57px;
+        left: 0;
+    }
+
+    .eight p {
+        left: 160px;
+        top: 60px;
+    }
+
+    .eight .icon {
+        right: 50px;
+        top: -45px;
+    }
+
+    .one h2 {
+        top: 57px;
+        left: 0;
+    }
+
+    .one p {
+        left: 160px;
+        top: 60px;
+    }
+
+    .one .icon {
+        top: -45px;
+        right: 50px;
+    }
+    
+    /*styling for features*/
+    .features img {
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    .features {
+        font-family: "customFont4";
+        width: 90%;
+        position: relative;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .features h2 {
+        position: absolute;
+        top: 250px;
+        left: 730px;
+    }
+
+    .pfeatures {
+        position: absolute;
+        top: 230px;
+        left: 730px;
+    }
+
+    .pfeatures2 {
+        position: absolute;
+        top: 290px;
+        left: 730px;
+        text-align: left !important;
+        width: 400px;
+    }
+    
+    .features-grid {
+        display: grid;
+        grid-template-columns: 250px 250px;
+        position: absolute;
+        top: 380px;
+        left: 680px;   
+    }
+
+    .features-image-container {
+        width: 610px !important;
+        height: 723px !important;
+        margin-left: 0px !important;
+    }
+
+    /*styling for pricing section*/
+    .pricing {
+        font-family: "customFont4";
+        text-align: center;
+        font-size: 1.2em;
+        margin-bottom: 100px;
+    }
+
+    .pricing-grid {
+        width: 95%;
+        margin-left: 200px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 20px;
+        position: relative;
+    }
+    
+    .pricing div {
+        margin-bottom: 32px;
+        margin-top: 12px;
+        height: 500px;
+        width: 350px;
+    }
+    
+    .premium {
+        background-color:  #0F06FE;
+        color: white;
+        height: 250px;       
+    }
+
+    .pricing-grid div h2, .pricing-grid div p {
+        margin-top: 30px;
+    }
+    
+
+    div .icon {
+        margin-top: 50px !important;
+    }
+
+    div h2 {
+        margin-top: 0px !important;
+    }
+
+    div h4 {
+        margin-top: 10px;
+    }
+
+    div h1 {
+        margin-top: 40px !important;
+        font-family: "customFont3";
+    }
+
+    .basic h2 {
+        margin-bottom: 200px;
+        margin-left: 2px !important;
+    }
+
+    .basic h4 {
+        margin-top: 10px !important;
+        margin-left: 0px !important;
+    }
+
+    .basic p, .premium p, .Elite p {
+        font-size: 0.8em;
+    }
+
+    .discount {
+        font-family: "customFont3";
+    }
+
+    /*styling for testimonials*/
+    .testimonials-image {
+        width: 628px !important;
+        height: 495px !important;
+    }
+
+    .testimonials {
+        font-family: "customFont4";
+        position: relative;
+    }
+
+    .review {
+        position: absolute;
+        top: 250px;
+        left: 750px;
+    }
+
+    .quote {
+        font-size: 2em;
+        position: absolute;
+        bottom: 180px;
+    }
+
+    /*Styling for team image*/
+
+    .team {
+        margin-top: 80px;
+    }
+
+    .team-image {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin-top: 50px !important;
+    }
+    .team-image div {
+        margin-bottom: 20px;
+    }
+    
+    /*styling for the footer*/
+    .footer {
+        font-family: "customFont4";
+    }
+
+    .numbers {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin-bottom: 100px !important;
+    }
+    
+    .numbers div {
+        margin-bottom: 22px;
+    }
+
+    .numbers div p, .fontfamily {
+        font-family: "customFont3" !important;
+    }
+
+    .fontfamily {
+        font-family: "customFont3" !important;
+        font-size: 2em !important;
+    }
+
+    
+    
+    /*styling for the FAQ*/
+    .paragraphs {
+        margin: 100px 0 120px 150px;
+    }
+
+    .paragraphs p {
+        margin-bottom: 22px;
+    }
+
+    .last {
+        height: 200px !important;
+        position: relative;
+    }
+
+    .last div {
+        font-family: "customFont3";
+        font-size: 1.5em;
+    }
+
+    .last footer {
+        position: absolute;
+        left: 600px;
+    }
+    
+
+}
