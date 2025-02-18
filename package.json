@@ -1,9 +1,10 @@
 {
   "name": "firts-project",
+  "homepage": "https://Dean413.github.io/first-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Dean413.github.io/first-project",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
