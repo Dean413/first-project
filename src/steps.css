@@ -39,13 +39,23 @@
     font-family: "customFont4";
 }
 
+.schedule {
+    font-family: "customFont4";
+    margin-left: 15px;
+    width: 450px;
+}
+
 .schedule div {
     margin-bottom: 10px;
     width: 90%;
 }
 
+.schedule > h2 {
+    margin-left: 120px;
+}
+
 .schedule > p {
-    margin-left: -25px;
+    margin-left: 165px;
 }
 
 /*styling for features*/
@@ -86,6 +96,10 @@
     margin-top: 12px;
 }
 
+.basic h2 {
+    margin-left: 0px !important;
+}
+
 .premium {
     background-color:  #0F06FE;
     color: white;
@@ -100,11 +114,20 @@
 .team-image div {
     margin-bottom: 20px;
 }
+.basic, .premium, .Elite {
+    height: 300px;
+}
 
 /*styling for the footer*/
 .footer {
     font-family: "customFont4";
 }
+
+.numbers div p, .fontfamily {
+    font-family: "customFont3" !important;
+}
+
+
 
 .numbers div {
     margin-bottom: 22px;
@@ -151,6 +174,7 @@
     margin-top: 100px;
     margin-left: 150px;
     font-family: "customFont4";
+    width: 100%;
    }
     .schedule div {
         margin-bottom: 10px;
